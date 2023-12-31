@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" name="username-value" placeholder="Username"
+                required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password-value" id="passwordField1" placeholder="Password"
+                required>
+                <i class='bx bxs-lock-open-alt'></i>
+                <i class='bx bxs-lock-alt cursor' id="showPassword1" ></i>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password-confirm-value" id="passwordField2" placeholder="Confirm Password"
+                required>
+                <i class='bx bxs-lock-open-alt'></i>
+                <i class='bx bxs-lock-alt cursor' id="showPassword2" ></i>
+            </div>
+            <button type="submit" name="button-register" class="button-register">Register</button>
+        </form>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+</html>
